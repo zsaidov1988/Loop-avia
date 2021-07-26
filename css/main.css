@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-v14-latin-regular.woff2") format("woff2"), url("../fonts/rubik-v14-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/rubik-v14-latin-500.woff2") format("woff2"), url("../fonts/rubik-v14-latin-500.woff") format("woff"); 
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/rubik-v14-latin-900.woff2") format("woff2"), url("../fonts/rubik-v14-latin-900.woff") format("woff"); 
+}
+
+*{
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #4A85AF;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.wrapper{
+  width: 340px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-top: 55px;
+  border: 1px solid transparent;
+}
+
+.container {
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.direction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dir-header{
+  text-transform: uppercase;
+  color: #3B8ACF;
+  font-size: 38px;
+  margin: 0;
+}
+
+.dir-text {
+  margin: 0;
+  color: #B1B1B1;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.ams {
+  text-align: right;
+}
+
+.line {
+  background-color: #D0E2F0;
+  width: 25px;
+  height: 5px;
+  border-radius: 2px;
+}
+
+.ticket-info{
+  margin-top: 57px;
+}
+
+.ticket-info .info-list{
+  padding: 0;
+  margin-right: 54px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ticket-info .info-value {
+  text-transform: uppercase;
+}
+
+.info-type {
+  text-transform: uppercase;
+  color: #B1B1B1;
+  font-size: 11px;
+  margin: 0;
+}
+
+.info-value {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 4px;
+}
+
+.passenger-info {
+  margin-top: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.passenger-info .info-list{
+  padding: 0;
+  margin: 0;
+}
+
+.passenger-info .info-value {
+  margin-bottom: 17px;
+}
